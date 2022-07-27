@@ -8,3 +8,5 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/jim_db", {
 });
 
 module.exports = mongoose.connection;
+
+//why do we want find and modify to be false? (natalya 7/27)
